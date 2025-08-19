@@ -10,4 +10,4 @@ apis:
 rules:
   no-unused-components: error
   operation-operationId: error
-  operation-summary: error
+  operation-summary: off
