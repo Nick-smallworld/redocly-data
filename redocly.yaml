@@ -1,0 +1,13 @@
+extends:
+  - recommended
+
+apis:
+  api-ja@v1:
+    root: ./ja/ja.yaml
+  api-en@v1:
+    root: ./en/en.yaml
+
+rules:
+  no-unused-components: error
+  operation-operationId: error
+  operation-summary: error
