@@ -1,0 +1,8 @@
+- page: Getting started.md
+  labe: Getting Started
+- page: Authentication.md
+  label: Authentication
+- group: API reference
+  items:
+    - page: en.json
+      label: LOT API

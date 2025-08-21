@@ -1,13 +1,8 @@
-extends:
-  - recommended
-
-apis:
-  api-ja@v1:
-    root: ./ja/ja.yaml
-  api-en@v1:
-    root: ./en/en.yaml
-
-rules:
-  no-unused-components: error
-  operation-operationId: error
-  operation-summary: off
+navbar:
+  items:
+    - page: index.md
+      label: Home
+    - page: ja/はじめに.md
+      label: 日本語
+    - page: en/Getting started.md
+      label: English

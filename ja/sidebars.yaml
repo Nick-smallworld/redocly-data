@@ -1,0 +1,8 @@
+- page: はじめに.md
+  labe: はじめに
+- page: 認証.md
+  label: 認証方法
+- group: API reference
+  items:
+    - page: ja.json
+      label: LOT API
