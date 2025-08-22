@@ -2,7 +2,7 @@ navbar:
   items:
     - page: index.md
       label: Home
-    - page: https:/github.com/Nick-smallworld/redocly-data/ja/はじめに.md
+    - page: ja/はじめに.md
       label: 日本語
-    - page: https:/github.com/Nick-smallworld/redocly-data/en/Getting started.md
+    - page: en/Getting started.md
       label: English
