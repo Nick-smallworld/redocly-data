@@ -32,7 +32,7 @@
         }
       },
       "post": {
-        "tags": ["Tasks"],          // ← 追加
+        "tags": ["Tasks"],
         "summary": "タスクを作成",
         "description": "新しいタスクを追加します。",
         "requestBody": {
