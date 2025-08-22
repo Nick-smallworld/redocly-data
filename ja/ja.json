@@ -14,7 +14,7 @@
   "paths": {
     "/tasks": {
       "get": {
-        "tags": ["Tasks"],          // ← 追加
+        "tags": ["Tasks"],
         "summary": "すべてのタスクを取得",
         "description": "登録されているすべてのタスクの一覧を取得します。",
         "responses": {
@@ -57,7 +57,7 @@
     },
     "/tasks/{id}": {
       "get": {
-        "tags": ["Tasks"],          // ← 追加
+        "tags": ["Tasks"],
         "summary": "IDでタスクを取得",
         "parameters": [
           {
