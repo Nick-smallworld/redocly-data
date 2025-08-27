@@ -2,7 +2,5 @@ navbar:
   items:
     - page: index.md
       label: Home
-    - page: ja/はじめに.md
-      label: 日本語
-    - page: en/Getting started.md
-      label: English
+openapi:
+  hideReplay: true

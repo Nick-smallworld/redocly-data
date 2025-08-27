@@ -1,0 +1,10 @@
+navbar:
+  items:
+    - page: index.md
+      label: Home
+    - page: ja/index.md
+      label: 日本語
+    - page: en/index.md
+      label: English
+openapi:
+  hideReplay: true
