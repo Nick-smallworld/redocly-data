@@ -1,8 +1,8 @@
-- page: はじめに.md
-  labe: はじめに
-- page: 認証.md
+- page: index.md
+  label: はじめに
+- page: Authentication.md
   label: 認証方法
 - group: API reference
   items:
-    - page: ja.json
+    - page: openapi.yaml
       label: LOT API

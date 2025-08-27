@@ -1,5 +1,5 @@
 - page: index.md
-  labe: Getting Started
+  label: Getting Started
 - page: Authentication.md
   label: Authentication
 - page: openapi.yaml

@@ -1,6 +1,0 @@
-navbar:
-  items:
-    - page: index.md
-      label: Home
-openapi:
-  hideReplay: true

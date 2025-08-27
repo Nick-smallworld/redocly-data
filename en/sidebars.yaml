@@ -1,6 +1,0 @@
-- page: index.md
-  labe: Getting Started
-- page: Authentication.md
-  label: Authentication
-- page: openapi.yaml
-  label: LOT API
