@@ -14,7 +14,3 @@
     - openapi.yaml
 
 - directory: /@3.0
-  order:
-    - index.md
-    - Authentication.md
-    - openapi.yaml
