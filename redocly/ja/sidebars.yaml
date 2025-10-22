@@ -1,16 +1,20 @@
 - page: index.md
   label: はじめに
+
 - directory: /@1.0
-- page: Authentication.md
-  label: 認証
+  order:
+    - index.md
+    - Authentication.md
+    - openapi.yaml
 
 - directory: /@2.0
-- page: Authentication.md
-  label: 認証
+  order:
+    - index.md
+    - Authentication.md
+    - openapi.yaml
 
 - directory: /@3.0
   order:
     - index.md
     - Authentication.md
     - openapi.yaml
-
