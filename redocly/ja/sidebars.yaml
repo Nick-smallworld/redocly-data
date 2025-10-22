@@ -2,7 +2,15 @@
   label: はじめに
 - page: Authentication.md
   label: 認証方法
-- group: API reference
-  items:
-    - page: openapi.yaml
-      label: LOT API
+- page: /@1.0/opena@i.yaml
+  label: API
+- page: /@1.0/Authentication.md
+  label: 認証方法
+- page: /@2.0/opena@i.yaml
+  label: API
+- page: /@2.0/Authentication.md
+  label: 認証方法
+- page: /@3.0/opena@i.yaml
+  label: API
+- page: /@3.0/Authentication.md
+  label: 認証方法
