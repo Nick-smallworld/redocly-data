@@ -3,12 +3,14 @@
 - directory: /@1.0
 - page: Authentication.md
   label: 認証
+
 - directory: /@2.0
 - page: Authentication.md
   label: 認証
+
 - directory: /@3.0
-- page: index.md
-  label: はじめに
-- page: Authentication.md
-  label: 認証
+  order:
+    - index.md
+    - Authentication.md
+    - openapi.yaml
 
