@@ -8,3 +8,7 @@ navbar:
       label: English
 openapi:
   hideReplay: true
+seo:
+  meta:
+    - name: robots
+      content: noindex

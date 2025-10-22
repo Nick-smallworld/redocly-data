@@ -1,0 +1,89 @@
+openapi: 3.0.3
+info:
+  title: タスク管理API
+  version: 1.0.0
+  description: タスクの作成と取得を行うためのAPI。
+servers:
+- url: https://api.example.com/v1
+  description: 本番サーバー
+paths:
+  /tasks:
+    get:
+      tags:
+      - Tasks
+      summary: すべてのタスクを取得
+      description: 登録されているすべてのタスクの一覧を取得します。
+      responses:
+        '200':
+          description: タスク一覧
+          content:
+            application/json:
+              schema:
+                type: array
+                items:
+                  $ref: '#/components/schemas/Task'
+    post:
+      tags:
+      - Tasks
+      summary: タスクを作成
+      description: 新しいタスクを追加します。
+      requestBody:
+        required: true
+        content:
+          application/json:
+            schema:
+              $ref: '#/components/schemas/TaskCreate'
+      responses:
+        '201':
+          description: タスクが正常に作成されました
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+  /tasks/{id}:
+    get:
+      tags:
+      - Tasks
+      summary: IDでタスクを取得
+      parameters:
+      - name: id
+        in: path
+        required: true
+        schema:
+          type: string
+      responses:
+        '200':
+          description: 指定されたタスク
+          content:
+            application/json:
+              schema:
+                $ref: '#/components/schemas/Task'
+        '404':
+          description: タスクが見つかりません
+components:
+  schemas:
+    Task:
+      type: object
+      properties:
+        id:
+          type: string
+          example: '123'
+        title:
+          type: string
+          example: 買い物をする
+        completed:
+          type: boolean
+          example: false
+      required:
+      - title
+    TaskCreate:
+      type: object
+      properties:
+        title:
+          type: string
+          example: 買い物をする
+        completed:
+          type: boolean
+          example: false
+      required:
+      - title
