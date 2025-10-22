@@ -3,3 +3,7 @@
 - directory: /@1.0
 - directory: /@2.0
 - directory: /@3.0
+- page: Authentiation.md
+  label: 認証
+- page: openapi.yaml
+  label: API
